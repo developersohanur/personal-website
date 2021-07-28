@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 .only{
@@ -18,4 +19,11 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.header-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
 }
