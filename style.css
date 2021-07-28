@@ -8,6 +8,24 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+.footer-area h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+    
+}
+
+.main-area p{
+    color: dimgray;
+}
 .name-highlight{
     color: blueviolet;
 }
@@ -20,10 +38,36 @@ h1{
 .half-width img{
     width: 100%;
 }
+.dream-width{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+.dream-width img{
+    width: 100%;
+}
 .header-area{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
 }
 section{
     height: 500px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: violet;
+    padding: 05px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, violet, blue);
+}
+.main-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.latest-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
 }
